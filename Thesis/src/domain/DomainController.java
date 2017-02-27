@@ -4,7 +4,7 @@ import email.IEmailHandler;
 import gui.IModel;
 
 public class DomainController implements IDomainController{
-	
+	private boolean started;
 	private IModel model;
 	private IEmailHandler emailHandler;
 	
@@ -14,6 +14,14 @@ public class DomainController implements IDomainController{
 
 	public void setEmailHandler(IEmailHandler emailHandler) {
 		this.emailHandler = emailHandler;
+	}
+
+	public void start() {
+		
+	}
+
+	public void close() {
+		
 	}
 
 }

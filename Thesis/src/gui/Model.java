@@ -16,6 +16,10 @@ public class Model implements IModel{
 	public void setView(View view){
 		this.view = view;
 	}
+
+	public void jobUpdate(String message) {
+		
+	}
 }
 
 
