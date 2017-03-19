@@ -6,8 +6,6 @@ public class Model implements IModel{
 
 	private IDomainController domain;
 	private View view;
-	public Model (){
-	}
 	
 	public void setDomainController (IDomainController domain){
 		this.domain = domain;
@@ -18,6 +16,14 @@ public class Model implements IModel{
 	}
 
 	public void jobUpdate(String message) {
+		
+	}
+
+	public void reportNumberOfNewTasks(int size) {
+		
+	}
+
+	public void reportResult(String string, boolean result) {
 		
 	}
 }
