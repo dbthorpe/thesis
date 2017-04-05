@@ -29,6 +29,9 @@ public class Application {
 		guiController.setView(view);
 		guiController.setModel(model);
 
+		
+		view.build();
+		view.show();
 	}
 
 }
